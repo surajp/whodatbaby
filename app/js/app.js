@@ -15,5 +15,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/getBabies/:id/:friend', {'templateUrl': 'partials/babies.html', 'controller': 'babyNameController'}).
 when('/home', {'templateUrl': 'partials/home.html'}).
 when('/parents/:id', {'templateUrl': 'partials/parents.html', 'controller': 'parentNameController'}).
-otherwise({redirectTo: '/home'});
+otherwise({redirectTo:"/home"});
 }]);
