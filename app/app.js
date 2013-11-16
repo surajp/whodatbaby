@@ -15,9 +15,21 @@ app.get('/getbaby/:id/:friend',function(req,res){
 });
 
 app.get('/getParent/:id',function(req,res){
-	console.log("Request received for getbaby "+req.params.id);
+	console.log("Request received for getParent"+req.params.id);
 //	res.writeHead(200,{"Content-type":"application/json"});
 	res.send({"name":["Bob","Jim","Jill"]});
+});
+
+app.get('/getBabyDetails/:id',function(req,res){
+	console.log("Request received for getbabydetails "+req.params.id);
+//	res.writeHead(200,{"Content-type":"application/json"});
+	res.send({"baby":{
+		"name": "Jack",
+		"age": "2",
+		"dob": "22nd November, 2011",	
+		"sex": "Male",
+		"notes": "Likes candy"
+	}});
 });
 
 app.get(/^\/?(.*)$/,function(req,res){

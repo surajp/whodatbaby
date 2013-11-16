@@ -18,6 +18,7 @@
 	padding-right: 10px;
 	margin-left: 16px;
 	margin-right: 16px;
+	list-style:none;
 }
 
 .row .friend-name ul li {
@@ -69,6 +70,44 @@ h2 {
 .move-on-button:hover {
 	text-decoration:none;
 	color:#333;
+}
+
+
+/* SINGLE CHILD */
+.row .child-single ul {
+	padding-left: 0;
+	background-color:#fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 16px;
+	margin-right: 16px;
+	list-style:none;
+}
+
+.row .child-single ul li {
+	list-style:none;
+	height: 68px;
+	width:100%;
+	padding-left:40px;
+}
+
+.row .child-single ul .first {
+	list-style:none;
+	height: 68px;
+	width:100%;
+	padding:0;
+}
+
+.row .child-single ul li .first {
+	height: 68px;
+}
+
+.row .child-single ul li div {
+	width:100%;
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 1px solid #929292;
 }
 
 
