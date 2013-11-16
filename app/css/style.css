@@ -6,19 +6,19 @@
 	background-color:#FFFFF0;
 }
 
-.friend-name ul {
+.row .friend-name ul {
 	padding-left: 0;
 	background-color:#EDF0F5;
 }
 
-.friend-name ul li {
+.row .friend-name ul li {
 	list-style:none;
-	height: 103px;
+	height: 109px;
 	width:100%;
 	border-bottom: 1px solid #ADADFF;
 }
 
-.friend-name ul li div {
+.row .friend-name ul li div {
 	width:100%;
 	max-width:500px;
 	margin-left:auto;
