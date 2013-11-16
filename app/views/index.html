@@ -1,22 +1,9 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Who dat baby</title>
   <link rel="stylesheet" href="app.css"/>
-</head>
-<body>
-  <ul class="menu">
-    <li><a href="#/getbaby/100/100">view1</a></li>
-  </ul>
-
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-  -->
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular/angular-route.js"></script>
   <script src="app.js"></script>
@@ -24,5 +11,16 @@
   <script src="controllers.js"></script>
   <script src="filters.js"></script>
   <script src="directives.js"></script>
+</head>
+<body ng-app="whodatbaby">
+  <ul class="menu">
+    <li><a href="#/getBabies/100/100">view1</a></li>
+  </ul>
+  <div class="container">
+	  <ng-view></ng-view>
+  </div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  -->
 </body>
 </html>
