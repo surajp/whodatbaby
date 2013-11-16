@@ -8,6 +8,11 @@ app.get('/',function(req,res){
 });
 
 
+app.get('/getbaby/:id/:friend',function(req,res){
+	console.log("Request received for getbaby "+req.param.id+" "+req.param.friend);
+	res.writeHead(200,{"Content-type":"application/json"});
+	res.send({"name":"Jack"});;
+});
 
 app.get(/^\/?(.*)$/,function(req,res){
 	console.log("Request received for "+req.params[0]);

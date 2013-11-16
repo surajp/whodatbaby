@@ -6,7 +6,7 @@ angular.module('whodatbaby', [
   'ngRoute',
 //'myApp.filters',
   'whodatbaby.services',
-  'whodatbaby.directives',
+//'whodatbaby.directives',
   'whodatbaby.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
