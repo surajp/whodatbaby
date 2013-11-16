@@ -11,7 +11,13 @@ app.get('/',function(req,res){
 app.get('/getbaby/:id/:friend',function(req,res){
 	console.log("Request received for getbaby "+req.params.id+" "+req.params.friend);
 //	res.writeHead(200,{"Content-type":"application/json"});
-	res.send({"name":"Jack"});
+	res.send({"name":["Jack","Dan","Johnny"]});
+});
+
+app.get('/getParent/:id',function(req,res){
+	console.log("Request received for getbaby "+req.params.id);
+//	res.writeHead(200,{"Content-type":"application/json"});
+	res.send({"name":["Bob","Jim","Jill"]});
 });
 
 app.get(/^\/?(.*)$/,function(req,res){
@@ -24,7 +30,7 @@ app.get(/^\/?(.*)$/,function(req,res){
 	else	if(fileName.match(/.css$/)!=null)
 		res.sendfile('./css/'+fileName);
 	else{
-		res.writeHead(500,{"Content-type":"text/plain"});
+		//res.writeHead(500,{"Content-type":"text/plain"});
 		res.send("Invalid request");
 	}
 });

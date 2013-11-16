@@ -15,5 +15,13 @@ angular.module('whodatbaby.services', []).
 			method: 'GET'
 		});
 	}
+
+	wdb_twitter.getParentNames=function(id){
+		alert('getting parent '+id);
+		return	$http({
+			url: 'http://localhost:8000/getParent/'+id,
+			method: 'GET'
+		});
+	}
 	return wdb_twitter;
   });

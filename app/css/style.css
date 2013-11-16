@@ -45,8 +45,9 @@ li img {
 h2 {
 	margin-top:0;
 	padding-top: 10px;
-	line-height: 48px;
-	margin-left: 67px;
+	line-height: 65px;
+	display:inline;
+	margin-left:10px;
 }
 
 .max-width {
@@ -54,6 +55,20 @@ h2 {
 	max-width:500px;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+.move-on-button {
+	width:30px;
+	height:30px;
+	float:right;
+	font-size:36px;
+	margin-top: 6px;
+	color:#333;
+}
+
+.move-on-button:hover {
+	text-decoration:none;
+	color:#333;
 }
 
 
