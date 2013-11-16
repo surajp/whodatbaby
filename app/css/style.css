@@ -1,0 +1,38 @@
+.header {
+	border-bottom: 1px solid black;
+	height: 40px;
+}
+.friend-name {
+	background-color:#FFFFF0;
+}
+
+.friend-name ul {
+	padding-left: 0;
+	background-color:#EDF0F5;
+}
+
+.friend-name ul li {
+	list-style:none;
+	height: 103px;
+	width:100%;
+	border-bottom: 1px solid #ADADFF;
+}
+
+.friend-name ul li div {
+	width:100%;
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+li img {
+	float:left;
+	width:95px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	margin-top:0;
+	padding-top: 10px;
+}
