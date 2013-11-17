@@ -13,7 +13,6 @@
 
 .row .friend-name ul {
 	padding-left: 0;
-	background-color:#fff;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 16px;
@@ -76,7 +75,6 @@ h2 {
 /* SINGLE CHILD */
 .row .child-single ul {
 	padding-left: 0;
-	background-color:#fff;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 16px;
